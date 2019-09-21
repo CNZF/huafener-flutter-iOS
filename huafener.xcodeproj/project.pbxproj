@@ -1671,6 +1671,7 @@
 				14409C18231BD170006E9FFA /* Resources */,
 				5E32016FD6CF65FC8CA1ECDD /* [CP] Copy Pods Resources */,
 				141966672331D617008035DD /* ShellScript */,
+				1ADE7A6B42BA877205B3A83C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1690,6 +1691,7 @@
 				14409C2F231BD172006E9FFA /* Frameworks */,
 				14409C30231BD172006E9FFA /* Resources */,
 				27127D83753F5BBF7AF7D9F6 /* [CP] Copy Pods Resources */,
+				F113368D757047A0748D9BEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1816,8 +1818,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "
-";
+			shellScript = "\n";
+		};
+		1ADE7A6B42BA877205B3A83C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		27127D83753F5BBF7AF7D9F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1895,6 +1913,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F113368D757047A0748D9BEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

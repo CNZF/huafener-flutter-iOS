@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72ABF5774FF397AAD060AE2618A1AC1B"
-               BuildableName = "STAlertView-STAlertView.bundle"
-               BlueprintName = "STAlertView-STAlertView"
+               BlueprintIdentifier = "83DAA8F43D74F8D51203DE23C7C3A3F5"
+               BuildableName = "libFlutterPluginRegistrant.a"
+               BlueprintName = "FlutterPluginRegistrant"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
