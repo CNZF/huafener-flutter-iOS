@@ -145,8 +145,8 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Messaging
   - Firebase/Performance
-  - Flutter (from `../huafener-f/huafenerc_flutter/.ios/Flutter/engine`)
-  - FlutterPluginRegistrant (from `../huafener-f/huafenerc_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../huafenerc-flutter/huafener_flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - IQKeyboardManager (~> 6.1.1)
   - LBXScan/LBXZBar (~> 2.3)
   - LBXScan/UI (~> 2.3)
@@ -190,9 +190,9 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../huafener-f/huafenerc_flutter/.ios/Flutter/engine"
+    :path: "../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine"
   FlutterPluginRegistrant:
-    :path: "../huafener-f/huafenerc_flutter/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../huafenerc-flutter/huafener_flutter/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -226,6 +226,6 @@ SPEC CHECKSUMS:
   STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 6796ba8f65eae099c0b50d310e58eb667c5be50f
+PODFILE CHECKSUM: 9189dd1960ca0df912f0a0295c62c919d46a3631
 
 COCOAPODS: 1.8.0.beta.2
