@@ -38,5 +38,5 @@ target 'huafenerTests' do
 end
 
 # 集成flutter ../  是当前路径下的跟路径也就是document 下的flutter路径
-#flutter_application_path = '../huafenerc_flutter'
+#flutter_application_path = '../huafener-f/huafenerc_flutter'
 #eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
