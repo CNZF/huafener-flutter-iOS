@@ -30,13 +30,15 @@ pod 'ReactiveObjC', '~>3.1.1'
 
 
 target 'huafener' do
- 
+flutter_application_path = '../huafener-flutter-f/flutter_module_t'
+
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+install_all_flutter_pods(flutter_application_path)
 end
 
 target 'huafenerTests' do
   pod 'STAlertView', '~> 1.0.0'
 end
 
-# profile的上层
-flutter_application_path = '../huafenerc-flutter/huafener_flutter'
-eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
+

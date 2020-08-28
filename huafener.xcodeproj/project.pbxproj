@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141966662330EC9D008035DD /* My-Huafener.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 141966652330EC9D008035DD /* My-Huafener.gpx */; };
 		1419666A233241FF008035DD /* HPCustomTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 14196669233241FF008035DD /* HPCustomTabbar.m */; };
 		1419666D23336AFD008035DD /* HomeTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419666C23336AFD008035DD /* HomeTabViewController.m */; };
 		1419667023336B26008035DD /* MineTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419666F23336B26008035DD /* MineTabViewController.m */; };
@@ -36,6 +35,11 @@
 		14409CC0231C437D006E9FFA /* homeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14409CBF231C437D006E9FFA /* homeView.m */; };
 		14409CC4231C67C9006E9FFA /* ZZCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14409CC3231C67C9006E9FFA /* ZZCustomAlertView.m */; };
 		14409CC7231C6903006E9FFA /* HPCenterBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14409CC6231C6903006E9FFA /* HPCenterBtnView.m */; };
+		1446B38E2428E36A00EC211F /* HPHomeVCTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446B38D2428E36A00EC211F /* HPHomeVCTableViewDelegate.m */; };
+		1446B3922428E5CD00EC211F /* Flutter_PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446B3912428E5CD00EC211F /* Flutter_PushViewController.m */; };
+		1446B39524299C5B00EC211F /* Flutter_PassByValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446B39424299C5B00EC211F /* Flutter_PassByValueViewController.m */; };
+		1446B3992429CE9C00EC211F /* ZFFlutterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446B3982429CE9C00EC211F /* ZFFlutterEngine.m */; };
+		1446B3A2242A1FE500EC211F /* FlutterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1446B3A1242A1FE500EC211F /* FlutterListViewController.m */; };
 		148E786C23235FCB00233434 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 148E770F23235FCA00233434 /* lookup_soft_elegance_2.png */; };
 		148E786D23235FCB00233434 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 148E771023235FCA00233434 /* lookup_soft_elegance_1.png */; };
 		148E786E23235FCB00233434 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = 148E771123235FCA00233434 /* lookup.png */; };
@@ -272,7 +276,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		141966652330EC9D008035DD /* My-Huafener.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "My-Huafener.gpx"; sourceTree = "<group>"; };
 		14196668233241FF008035DD /* HPCustomTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPCustomTabbar.h; sourceTree = "<group>"; };
 		14196669233241FF008035DD /* HPCustomTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPCustomTabbar.m; sourceTree = "<group>"; };
 		1419666B23336AFD008035DD /* HomeTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTabViewController.h; sourceTree = "<group>"; };
@@ -331,6 +334,16 @@
 		14409CC3231C67C9006E9FFA /* ZZCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZCustomAlertView.m; sourceTree = "<group>"; };
 		14409CC5231C6903006E9FFA /* HPCenterBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCenterBtnView.h; sourceTree = "<group>"; };
 		14409CC6231C6903006E9FFA /* HPCenterBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPCenterBtnView.m; sourceTree = "<group>"; };
+		1446B38C2428E36A00EC211F /* HPHomeVCTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPHomeVCTableViewDelegate.h; sourceTree = "<group>"; };
+		1446B38D2428E36A00EC211F /* HPHomeVCTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPHomeVCTableViewDelegate.m; sourceTree = "<group>"; };
+		1446B3902428E5CD00EC211F /* Flutter_PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flutter_PushViewController.h; sourceTree = "<group>"; };
+		1446B3912428E5CD00EC211F /* Flutter_PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flutter_PushViewController.m; sourceTree = "<group>"; };
+		1446B39324299C5B00EC211F /* Flutter_PassByValueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Flutter_PassByValueViewController.h; sourceTree = "<group>"; };
+		1446B39424299C5B00EC211F /* Flutter_PassByValueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flutter_PassByValueViewController.m; sourceTree = "<group>"; };
+		1446B3972429CE9C00EC211F /* ZFFlutterEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFFlutterEngine.h; sourceTree = "<group>"; };
+		1446B3982429CE9C00EC211F /* ZFFlutterEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFFlutterEngine.m; sourceTree = "<group>"; };
+		1446B3A0242A1FE500EC211F /* FlutterListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterListViewController.h; sourceTree = "<group>"; };
+		1446B3A1242A1FE500EC211F /* FlutterListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterListViewController.m; sourceTree = "<group>"; };
 		148E770F23235FCA00233434 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_2.png; sourceTree = "<group>"; };
 		148E771023235FCA00233434 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_1.png; sourceTree = "<group>"; };
 		148E771123235FCA00233434 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
@@ -867,7 +880,6 @@
 		14409C1C231BD170006E9FFA /* huafener */ = {
 			isa = PBXGroup;
 			children = (
-				141966652330EC9D008035DD /* My-Huafener.gpx */,
 				14B17255231D16A100463A7A /* Lib */,
 				14409CB5231C3D02006E9FFA /* projectCode */,
 				14409CAB231BF6F7006E9FFA /* HPCategorys */,
@@ -961,6 +973,8 @@
 		14409CB5231C3D02006E9FFA /* projectCode */ = {
 			isa = PBXGroup;
 			children = (
+				1446B3962429CE7000EC211F /* FlutterEngine */,
+				1446B38F2428E5A200EC211F /* ChildViewController */,
 				141EC1D2231CC39500E613F0 /* LYEnums */,
 				14409CB6231C3D15006E9FFA /* base */,
 				14409C99231BED26006E9FFA /* TabbarVC */,
@@ -990,6 +1004,8 @@
 				1419666C23336AFD008035DD /* HomeTabViewController.m */,
 				1419666E23336B26008035DD /* MineTabViewController.h */,
 				1419666F23336B26008035DD /* MineTabViewController.m */,
+				1446B38C2428E36A00EC211F /* HPHomeVCTableViewDelegate.h */,
+				1446B38D2428E36A00EC211F /* HPHomeVCTableViewDelegate.m */,
 			);
 			path = tabsController;
 			sourceTree = "<group>";
@@ -1008,6 +1024,28 @@
 				141EC1CD231CB7E500E613F0 /* centerBtnList.plist */,
 			);
 			path = centerBtnView;
+			sourceTree = "<group>";
+		};
+		1446B38F2428E5A200EC211F /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1446B3902428E5CD00EC211F /* Flutter_PushViewController.h */,
+				1446B3912428E5CD00EC211F /* Flutter_PushViewController.m */,
+				1446B39324299C5B00EC211F /* Flutter_PassByValueViewController.h */,
+				1446B39424299C5B00EC211F /* Flutter_PassByValueViewController.m */,
+				1446B3A0242A1FE500EC211F /* FlutterListViewController.h */,
+				1446B3A1242A1FE500EC211F /* FlutterListViewController.m */,
+			);
+			path = ChildViewController;
+			sourceTree = "<group>";
+		};
+		1446B3962429CE7000EC211F /* FlutterEngine */ = {
+			isa = PBXGroup;
+			children = (
+				1446B3972429CE9C00EC211F /* ZFFlutterEngine.h */,
+				1446B3982429CE9C00EC211F /* ZFFlutterEngine.m */,
+			);
+			path = FlutterEngine;
 			sourceTree = "<group>";
 		};
 		148E770C23235FCA00233434 /* GPUImage */ = {
@@ -1666,12 +1704,13 @@
 			buildConfigurationList = 14409C46231BD172006E9FFA /* Build configuration list for PBXNativeTarget "huafener" */;
 			buildPhases = (
 				B09E49A68FCF7EF7343D00B6 /* [CP] Check Pods Manifest.lock */,
+				EC194BE9923552EF84CBA577 /* [CP-User] Run Flutter Build Script */,
 				14409C16231BD170006E9FFA /* Sources */,
 				14409C17231BD170006E9FFA /* Frameworks */,
 				14409C18231BD170006E9FFA /* Resources */,
 				5E32016FD6CF65FC8CA1ECDD /* [CP] Copy Pods Resources */,
 				141966672331D617008035DD /* ShellScript */,
-				598ADB286AB21CB40C4696B5 /* [CP] Embed Pods Frameworks */,
+				BF03BCA9730CE7A99B97E678 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1691,7 +1730,6 @@
 				14409C2F231BD172006E9FFA /* Frameworks */,
 				14409C30231BD172006E9FFA /* Resources */,
 				27127D83753F5BBF7AF7D9F6 /* [CP] Copy Pods Resources */,
-				211ED9ABC84F1ADA068C954F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1769,7 +1807,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				148E786F23235FCB00233434 /* lookup_amatorka.png in Resources */,
-				141966662330EC9D008035DD /* My-Huafener.gpx in Resources */,
 				14409C2A231BD171006E9FFA /* LaunchScreen.storyboard in Resources */,
 				14B17297231D1A9F00463A7A /* LICENSE in Resources */,
 				148E786C23235FCB00233434 /* lookup_soft_elegance_2.png in Resources */,
@@ -1805,7 +1842,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		141966672331D617008035DD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -1818,31 +1855,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build \n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" embed\n";
-		};
-		211ED9ABC84F1ADA068C954F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks.sh",
-				"${PODS_ROOT}/../../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine/Flutter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "
+";
 		};
 		27127D83753F5BBF7AF7D9F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1852,58 +1866,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
-				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
-				"${PODS_CONFIGURATION_BUILD_DIR}/STAlertView/STAlertView.bundle",
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STAlertView.bundle",
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafenerTests/Pods-huafenerTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		598ADB286AB21CB40C4696B5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks.sh",
-				"${PODS_ROOT}/../../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine/Flutter.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5E32016FD6CF65FC8CA1ECDD /* [CP] Copy Pods Resources */ = {
@@ -1914,28 +1883,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-resources.sh",
-				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle",
-				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-back.png",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-help.html",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-helpicons.png",
-				"${PODS_ROOT}/ZBarSDK/iphone/res/zbar-samples.png",
-			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CodeScan.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-back.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-help.html",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-helpicons.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zbar-samples.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1964,6 +1914,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BF03BCA9730CE7A99B97E678 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C495855B0AC8479E603926C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1985,6 +1952,22 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		EC194BE9923552EF84CBA577 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../huafener-flutter-f/flutter_module_t/.metadata",
+				"${SRCROOT}/../huafener-flutter-f/flutter_module_t/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../huafener-flutter-f/flutter_module_t/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../huafener-flutter-f/flutter_module_t/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2119,6 +2102,7 @@
 				148E78B023235FCB00233434 /* GPUImageRGBClosingFilter.m in Sources */,
 				148E789723235FCB00233434 /* GPUImageBilateralFilter.m in Sources */,
 				148E78E423235FCB00233434 /* GPUImageBuffer.m in Sources */,
+				1446B38E2428E36A00EC211F /* HPHomeVCTableViewDelegate.m in Sources */,
 				148E78D723235FCB00233434 /* GPUImageCrosshairGenerator.m in Sources */,
 				148E78D123235FCB00233434 /* GPUImageGaussianSelectiveBlurFilter.m in Sources */,
 				148E78FE23235FCB00233434 /* GPUImageAddBlendFilter.m in Sources */,
@@ -2137,12 +2121,14 @@
 				148E78FA23235FCB00233434 /* GPUImagePerlinNoiseFilter.m in Sources */,
 				148E78E323235FCB00233434 /* GPUImageShiTomasiFeatureDetectionFilter.m in Sources */,
 				14409CA7231BF59D006E9FFA /* UITabBarController+LYTabbarSetting.m in Sources */,
+				1446B3A2242A1FE500EC211F /* FlutterListViewController.m in Sources */,
 				148E78B523235FCB00233434 /* GPUImageDifferenceBlendFilter.m in Sources */,
 				148E789B23235FCB00233434 /* GPUImageExclusionBlendFilter.m in Sources */,
 				148E78FC23235FCB00233434 /* GPUImageHueBlendFilter.m in Sources */,
 				148E78DC23235FCB00233434 /* GPUImageHazeFilter.m in Sources */,
 				148E78F823235FCB00233434 /* GPUImagePrewittEdgeDetectionFilter.m in Sources */,
 				148E78F123235FCB00233434 /* GPUImageMedianFilter.m in Sources */,
+				1446B3922428E5CD00EC211F /* Flutter_PushViewController.m in Sources */,
 				148E78AC23235FCB00233434 /* GPUImagePixellateFilter.m in Sources */,
 				148E788023235FCB00233434 /* GPUImageUIElement.m in Sources */,
 				148E788A23235FCB00233434 /* GPUImageHistogramFilter.m in Sources */,
@@ -2183,6 +2169,7 @@
 				148E78CC23235FCB00233434 /* GPUImageSaturationBlendFilter.m in Sources */,
 				148E78C423235FCB00233434 /* GPUImageRGBFilter.m in Sources */,
 				148E788523235FCB00233434 /* GPUImageGrayscaleFilter.m in Sources */,
+				1446B3992429CE9C00EC211F /* ZFFlutterEngine.m in Sources */,
 				148E78AF23235FCB00233434 /* GPUImageSphereRefractionFilter.m in Sources */,
 				148E78E223235FCB00233434 /* GPUImageThreeInputFilter.m in Sources */,
 				148E790723235FCB00233434 /* GPUImageMosaicFilter.m in Sources */,
@@ -2201,6 +2188,7 @@
 				14B172A2231D1A9F00463A7A /* MJRefreshAutoGifFooter.m in Sources */,
 				148E789523235FCB00233434 /* GPUImageAmatorkaFilter.m in Sources */,
 				14B172BE231D1AC800463A7A /* SVProgressAnimatedView.m in Sources */,
+				1446B39524299C5B00EC211F /* Flutter_PassByValueViewController.m in Sources */,
 				141EC1C5231CA63D00E613F0 /* UIViewExt.m in Sources */,
 				148E78D223235FCB00233434 /* GPUImageLuminosity.m in Sources */,
 				148E78CA23235FCB00233434 /* GPUImagePicture+TextureSubimage.m in Sources */,
@@ -2395,6 +2383,10 @@
 				DEVELOPMENT_TEAM = BGH7S67FXX;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huafener",
+				);
 				GCC_PREFIX_HEADER = "/Users/yangjunjie/Documents/huafenerc/huafener/HP-PCH/HPDefineHeader.pch";
 				INFOPLIST_FILE = huafener/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2418,6 +2410,10 @@
 				DEVELOPMENT_TEAM = BGH7S67FXX;
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/huafener",
+				);
 				GCC_PREFIX_HEADER = "/Users/yangjunjie/Documents/huafenerc/huafener/HP-PCH/HPDefineHeader.pch";
 				INFOPLIST_FILE = huafener/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

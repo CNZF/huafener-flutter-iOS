@@ -19,11 +19,9 @@
     //控制台
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
-    
-    FlutterViewController* flutterViewController = [[FlutterViewController alloc] initWithProject:nil nibName:nil bundle:nil];
+//初始化flutter单引擎，不在delegate里边初始化的话，会造成第一次i跳转页面无法获取到baseChannel发送的信息，从而显示默认的信息
+    [ZFFlutterEngine shareInstant];
 
-    self.window.rootViewController = flutterViewController;
-    
     return YES;
 }
 

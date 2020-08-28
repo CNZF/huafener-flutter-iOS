@@ -1,1 +1,1 @@
-../../../../../huafenerc-flutter/huafener_flutter/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h
+../../../../../huafener-flutter-f/flutter_module_t/.ios/Flutter/FlutterPluginRegistrant/Classes/GeneratedPluginRegistrant.h

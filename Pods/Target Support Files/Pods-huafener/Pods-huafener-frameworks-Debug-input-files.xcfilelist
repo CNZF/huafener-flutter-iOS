@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-huafener/Pods-huafener-frameworks.sh
-${PODS_ROOT}/../../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine/Flutter.framework
+${PODS_ROOT}/../../huafener-flutter-f/flutter_module_t/.ios/Flutter/App.framework

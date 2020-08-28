@@ -153,10 +153,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/../../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine/Flutter.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/../../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine/Flutter.framework"
+  install_framework "${PODS_ROOT}/../../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine/Flutter.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

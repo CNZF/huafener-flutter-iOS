@@ -81,6 +81,8 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 6.0)"
     - Protobuf (~> 3.5)
   - Flutter (1.0.0)
+  - flutter_module_t (0.0.1):
+    - Flutter
   - FlutterPluginRegistrant (0.0.1):
     - Flutter
   - GoogleAppMeasurement (6.0.2):
@@ -145,8 +147,9 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Messaging
   - Firebase/Performance
-  - Flutter (from `../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine`)
-  - FlutterPluginRegistrant (from `../huafenerc-flutter/huafener_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - Flutter (from `../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine`)
+  - flutter_module_t (from `../huafener-flutter-f/flutter_module_t/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../huafener-flutter-f/flutter_module_t/.ios/Flutter/FlutterPluginRegistrant`)
   - IQKeyboardManager (~> 6.1.1)
   - LBXScan/LBXZBar (~> 2.3)
   - LBXScan/UI (~> 2.3)
@@ -158,7 +161,7 @@ DEPENDENCIES:
   - STAlertView (~> 1.0.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - CocoaLumberjack
     - Crashlytics
@@ -190,9 +193,11 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "../huafenerc-flutter/huafener_flutter/.ios/Flutter/engine"
+    :path: "../huafener-flutter-f/flutter_module_t/.ios/Flutter/engine"
+  flutter_module_t:
+    :path: "../huafener-flutter-f/flutter_module_t/.ios/Flutter"
   FlutterPluginRegistrant:
-    :path: "../huafenerc-flutter/huafener_flutter/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../huafener-flutter-f/flutter_module_t/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -208,8 +213,9 @@ SPEC CHECKSUMS:
   FirebaseMessaging: 0ac5310133e6ada4cdd44d42e92038855214a5e9
   FirebasePerformance: 1cf814c294cb0f6e0d36cde0760d09835b13c9ce
   FirebaseRemoteConfig: 7c64ecec5ca63d7c6b304509c3a6f9a036d403d4
-  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
-  FlutterPluginRegistrant: 8855ca2b426d228cb41aa6c26c0c83b8c49e3593
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_module_t: 2345b331a2d8b3d518e478ad7e303f31b9ef5af3
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
   GoogleAppMeasurement: a35a645835bae31b6bdc0576396bc23908f12a22
   GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
   GoogleUtilities: c7a0b08bda3bf808be823ed151f0e28ac6866e71
@@ -226,6 +232,6 @@ SPEC CHECKSUMS:
   STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
-PODFILE CHECKSUM: 9189dd1960ca0df912f0a0295c62c919d46a3631
+PODFILE CHECKSUM: 5dcbd774046a854a412667c6416ed09da2c8194f
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.0
